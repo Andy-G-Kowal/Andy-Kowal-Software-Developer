@@ -1,0 +1,74 @@
+/* Set global styles for the entire page */
+body {
+  font-family: Arial, sans-serif; /* Use Arial font as the default font family */
+  line-height: 1.6; /* Set the line height to 1.6 times the font size for better readability */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  background-color: #f0f0f0; /* Set a light gray background color for the body */
+}
+
+/* Style the header section of the page */
+header {
+  text-align: center; /* Center the content inside the header */
+  background-color: #333; /* Set a dark gray background color for the header */
+  color: #fff; /* Set white color for the text inside the header */
+  padding: 2rem; /* Add 2rem padding around the header content */
+}
+
+/* Style the h1 inside the header */
+header h1 {
+  margin: 0; /* Remove any margin from the h1 tag to eliminate extra spacing */
+}
+
+/* Style the h2 inside the header */
+header h2 {
+  margin: 0; /* Remove any margin from the h2 tag to eliminate extra spacing */
+  font-size: 1.5rem; /* Set the font size of h2 to 1.5rem */
+}
+
+/* Apply styles to the image with the "styled-image" class */
+.styled-image {
+  border: 2px solid #ddd; /* Add a 2px wide solid border around the image with a light gray color (#ddd) */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow effect to the image */
+  margin: 10px; /* Add 10px margin around the image to create spacing between the image and other elements */
+  border-radius: 8px; /* Round the corners of the image by setting the border-radius to 8px */
+}
+
+/* Style the main content section of the page */
+main {
+  max-width: 800px; /* Set a maximum width for the main content area to ensure it doesn't become too wide on larger screens */
+  margin: 0 auto; /* Center the main content horizontally by setting left and right margins to auto */
+  padding: 2rem; /* Add 2rem padding around the main content to create spacing from the edges */
+}
+
+/* Apply specific styles to sections with IDs "about" and "contact" */
+#about, #contact {
+  margin-bottom: 2rem; /* Add 2rem margin at the bottom of the "about" and "contact" sections */
+}
+
+/* Style h2 tags inside "about" and "contact" sections */
+#about h2, #contact h2 {
+  border-bottom: 2px solid #333; /* Add a 2px wide solid border at the bottom of h2 tags inside "about" and "contact" sections with a dark gray color (#333) */
+  padding-bottom: 0.5rem; /* Add 0.5rem padding at the bottom of h2 tags inside "about" and "contact" sections to create space between the border and text */
+}
+
+/* Style the unordered list inside the "contact" section */
+#contact ul {
+  list-style: none; /* Remove the default bullet points from the list */
+  padding: 0; /* Remove any default padding from the list */
+}
+
+/* Style the list items inside the "contact" section */
+#contact li {
+  margin-bottom: 1rem; /* Add 1rem margin at the bottom of each list item to create space between them */
+}
+
+/* Style anchor (link) elements */
+a {
+  color: #007bff; /* Set the link color to a blue shade (#007bff) */
+}
+
+/* Style anchor (link) elements on hover */
+a:hover {
+  text-decoration: underline; /* Underline the link text when hovering over it */
+}
