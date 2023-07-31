@@ -33,6 +33,7 @@ header h2 {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow effect to the image */
   border-radius: 8px; /* Round the corners of the image by setting the border-radius to 8px */
   margin-top: 20px; /* Optional: Add some top margin to create spacing between the image and other elements */
+  height: 300px; /* Set the height of the image to 300px */
 }
 
 /* Style the main content section of the page */
